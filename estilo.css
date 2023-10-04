@@ -28,7 +28,7 @@ body{
   align-items: center;
   text-align: center;
   background-color: #c7eef3;
-  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
   border-bottom-left-radius: 20px;
 }
 .info-childs{
@@ -57,5 +57,72 @@ body{
   background-color: #9191bd;
   border: none;
   color: #fff;
+  box-shadow: 0 2px 5px rgb( 0, 0, 0, .1);
+}
+.form-informacion{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  text-align: center;
+  background-color: #fff;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.form-informacion-childs{
+  padding: 0% 30px;
+  
+}
+.form-informacion-childs p{
+  color: #555;
+}
+.icons{
+  margin: 15px 0;
+}
+.icons i{
+  border-radius: 50%;
+  padding: 15px;
+  cursor: pointer;
+  margin: 0 10px;
+  color: #9191bd;
+  transition: 0.3s ease;
+  box-shadow: 0 2px 5px rgb( 0, 0, 0, .1);
+}
+.icons i:hover{
+  background-color: #c7c7f3;
+  color: #fff;
+}
+.form{
+  margin: 30px 0 0 0;
+}
+.form label{
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  padding: 0 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgb( 0, 0, 0, .1);
+}
+.form label input{
+  width: 100%;
+  padding: 10px;
+  background-color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  color: #333;
+}
+.form label i{
+  color: #a7a7a7;
+}
+.form input[type="submit"]{
+  background-color: #9191bd;
+  color: #fff;
+  border-radius: 20px;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  margin-top: 10px;
   box-shadow: 0 2px 5px rgb( 0, 0, 0, .1);
 }
