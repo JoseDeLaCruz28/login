@@ -133,6 +133,15 @@ body{
   position: absolute;
   transform: translateY(-300%);
 }
+
+.olvidar{
+  padding: 10px;
+  font-size: 14;
+}
+.link{
+  font-size: 14;
+}
+
 /* Responsive | para celular*/
 
 @media screen and (max-width: 750px){
