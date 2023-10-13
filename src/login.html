@@ -8,8 +8,10 @@
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="estilo.css">
   <title>FORMULARIO DE REGISTRO E INICIO DE SESION</title>
+  <script src="./main.js" type="module"></script>
 </head>
 <body>
+    <!-- REGISTRO-->
     <div class="container-form registro">
       <div class="informacion">
         <div class="info-childs">
@@ -29,7 +31,9 @@
             <i class='bx bxl-facebook-circle'></i>
           </div>
           <p>o usa tu gmail para registrarte</p>
+          <!--Form Registro-->
           <form class="form">
+
             <label>
               <i class='bx bxs-user'></i>
               <input type="text" placeholder="Nombre de Usuario">
@@ -43,11 +47,12 @@
               <input type="password" placeholder="Contraseña">
             </label>
             <input type="submit" value="registrarse">
+
           </form>
         </div>
       </div>
     </div>
-
+    <!-- SESION-->
     <div class="container-form sesion hide">
       <div class="informacion">
         <div class="info-childs">
@@ -67,7 +72,9 @@
             <i class='bx bxl-facebook-circle'></i>
           </div>
           <p>o Iniciar Sesión con una cuenta</p>
+          <!--Form Sesion-->
           <form class="form">
+
             <label>
               <i class='bx bxs-envelope'></i>
               <input type="email" placeholder="Correo Electronico">
@@ -79,9 +86,11 @@
             <input type="submit" value="Iniciar Sesión">
             <p class="olvidar">¿Has olvidado tu Contraseña?</p>
             <a class="link" href="recuperar.html">Recupera tu contraseña</a>
+
           </form>
         </div>
       </div>
     </div>
+    
     <script src="codigo.js"></script>
 </body>
