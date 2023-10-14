@@ -142,6 +142,24 @@ body{
   font-size: 14;
 }
 
+.buttons{
+  display: flex;
+  justify-content: space-around;
+}
+.buttons a{
+  border-radius: 50%;
+  padding: 15px;
+  cursor: pointer;
+  margin: 0 10px;
+  color: #9191bd;
+  transition: 0.3s ease;
+  box-shadow: 0 2px 5px rgb( 0, 0, 0, .1);
+}
+.buttons a:hover{
+  background-color: #c7c7f3;
+  color: #fff;
+}
+
 /* Responsive | para celular*/
 
 @media screen and (max-width: 750px){

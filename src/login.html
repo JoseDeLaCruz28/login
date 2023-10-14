@@ -8,6 +8,7 @@
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
   <link rel="stylesheet" href="estilo.css">
+  
   <title>FORMULARIO DE REGISTRO E INICIO DE SESION</title>
   <script src="./main.js" type="module"></script>
 </head>
@@ -26,11 +27,13 @@
       <div class="form-informacion">
         <div class="form-informacion-childs">
           <h2>Crea un cuenta</h2>
-          <div class="icons">
-            <i class='bx bxl-google'></i>
-            <i class='bx bxl-github'></i>
-            <i class='bx bxl-facebook-circle'></i>
-          </div>
+          <!--
+            <div class="icons">
+              <i class='bx bxl-google'></i>
+              <i class='bx bxl-github'></i>
+              <i class='bx bxl-facebook-circle'></i>
+            </div>
+          -->
           <p>o usa tu gmail para registrarte</p>
           <!--Form Registro-->
           <form class="form"  id="signup-form">
@@ -44,8 +47,6 @@
               <input type="password" id="signup-password" placeholder="Contraseña" required>
             </label>
             <input class="logged-out" type="submit" value="registrarse">
-
-            
 
           </form>
         </div>
@@ -66,10 +67,17 @@
         <div class="form-informacion-childs">
           <h2>Iniciar Sesión</h2>
           <div class="icons">
-            <input class='bx bxl-google' type="button">
+            <section class="buttons">
+              <a id="googleLogin" class='bx bxl-google'></a>
+              <a id="GithubLogin" class='bx bxl-github'></a>
+              <a id="FacebookLogin" class='bx bxl-facebook-circle'></a>
+            </section>
+            <!--
             <i class='bx bxl-google'></i>
+            <input class='bx bxl-google' type="button">
             <i class='bx bxl-github'></i>
             <i class='bx bxl-facebook-circle'></i>
+            -->
           </div>
           <p>o Iniciar Sesión con una cuenta</p>
           <!--Form Sesion-->

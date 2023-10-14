@@ -4,6 +4,9 @@ import { loginCheck } from './app/loginchek.js'
 
 import './app/signupForm.js'
 import './app/signinForm.js'
+import './app/googleLogin.js'
+import './app/facebookLogin.js'
+import './app/githubLogin.js'
 import './app/logout.js'
 
 
