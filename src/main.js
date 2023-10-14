@@ -3,6 +3,7 @@ import { auth } from './app/firebase.js'
 import { loginCheck } from './app/loginchek.js'
 
 import './app/signupForm.js'
+import './app/signinForm.js'
 import './app/logout.js'
 
 

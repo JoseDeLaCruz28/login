@@ -37,11 +37,11 @@
 
             <label>
               <i class='bx bxs-envelope'></i>
-              <input type="email" id="signup-email" placeholder="Correo Electronico">
+              <input type="email" id="signup-email" placeholder="Correo Electronico" required>
             </label>
             <label>
               <i class='bx bxs-lock-alt'></i>
-              <input type="password" id="signup-password" placeholder="Contraseña">
+              <input type="password" id="signup-password" placeholder="Contraseña" required>
             </label>
             <input class="logged-out" type="submit" value="registrarse">
 
@@ -66,21 +66,22 @@
         <div class="form-informacion-childs">
           <h2>Iniciar Sesión</h2>
           <div class="icons">
+            <input class='bx bxl-google' type="button">
             <i class='bx bxl-google'></i>
             <i class='bx bxl-github'></i>
             <i class='bx bxl-facebook-circle'></i>
           </div>
           <p>o Iniciar Sesión con una cuenta</p>
           <!--Form Sesion-->
-          <form class="form" id="signin-form">
+          <form class="form" id="login-form">
 
             <label>
               <i class='bx bxs-envelope'></i>
-              <input type="email" placeholder="Correo Electronico">
+              <input type="email" id="login-email" placeholder="Correo Electronico" required>
             </label>
             <label>
               <i class='bx bxs-lock-alt'></i>
-              <input type="password" placeholder="Contraseña">
+              <input type="password" id="login-password" placeholder="Contraseña" required>
             </label>
               <input class="logged-out" type="submit" value="Iniciar Sesión">
               <input class="logged-in" type="submit" id="logout" value="Cerrar Sesión">

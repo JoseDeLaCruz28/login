@@ -21,8 +21,7 @@ signupForm.addEventListener('submit', async (e) =>{
         e.target.reset()
 
     } catch (error) {
-        console.log(error.message)
-        console.log(error.code)
+
         if(error.code === 'auth/email-already-in-use'){
             showMessage("¡Ups, correo electrónico ya registrado!", "error")
         }else if(error.code === 'auth/invalid-email'){
@@ -30,7 +29,8 @@ signupForm.addEventListener('submit', async (e) =>{
         }else if(error.code === 'auth/weak-password'){
             showMessage("Contraseña muy corta, intenta con una más segura", "error")
         }else if(error.code){
-            showMessage(error.message, "error")
+            showMessage('ups algo sucedió', "error")
+            alert('ups algo sucedió')
         }
     }
 })
