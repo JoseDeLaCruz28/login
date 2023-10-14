@@ -6,6 +6,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap" rel="stylesheet">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
   <link rel="stylesheet" href="estilo.css">
   <title>FORMULARIO DE REGISTRO E INICIO DE SESION</title>
   <script src="./main.js" type="module"></script>
@@ -42,7 +43,9 @@
               <i class='bx bxs-lock-alt'></i>
               <input type="password" id="signup-password" placeholder="Contraseña">
             </label>
-            <input type="submit" value="registrarse">
+            <input class="logged-out" type="submit" value="registrarse">
+
+            
 
           </form>
         </div>
@@ -79,14 +82,19 @@
               <i class='bx bxs-lock-alt'></i>
               <input type="password" placeholder="Contraseña">
             </label>
-            <input type="submit" value="Iniciar Sesión">
+              <input class="logged-out" type="submit" value="Iniciar Sesión">
+              <input class="logged-in" type="submit" id="logout" value="Cerrar Sesión">
+
+
             <p class="olvidar">¿Has olvidado tu Contraseña?</p>
             <a class="link" href="recuperar.html">Recupera tu contraseña</a>
 
           </form>
-        </div>
+          
+        </div> 
       </div>
     </div>
     
     <script src="codigo.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
 </body>
